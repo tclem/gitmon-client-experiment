@@ -1,0 +1,6 @@
+[submodule "vendor/gitlib"]
+	path = vendor/gitlib
+	url = https://github.com/joshvera/gitlib
+[submodule "vendor/text-icu"]
+	path = vendor/text-icu
+	url = https://github.com/joshvera/text-icu
