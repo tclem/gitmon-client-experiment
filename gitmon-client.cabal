@@ -17,8 +17,13 @@ library
   hs-source-dirs:      src
   exposed-modules:     Client
   build-depends:       base >= 4.7 && < 5
+                     , bytestring
+                     , gitlib
+                     , gitlib-libgit2
                      , mtl
+                     , network
                      , text-icu
+                     , text
   default-language:    Haskell2010
 
 executable gitmon-client-exe
@@ -31,6 +36,7 @@ executable gitmon-client-exe
                      , gitlib-libgit2
                      , gitmon-client
                      , mtl
+                     , text
   default-language:    Haskell2010
 
 test-suite gitmon-client-test
